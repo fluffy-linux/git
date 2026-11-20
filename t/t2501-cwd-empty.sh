@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test handling of the current working directory becoming empty'
 

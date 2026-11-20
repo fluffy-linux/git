@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test custom script in place of pack-objects'
 

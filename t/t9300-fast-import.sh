@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2007 Shawn Pearce
 #
@@ -30,7 +30,7 @@ file4_len=4
 file5_data='an inline file.
   we should see it later.'
 
-file6_data='#!/bin/sh
+file6_data='#!/sw/bash/bin/bash
 echo "$@"'
 
 ###

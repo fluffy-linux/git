@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2008 Clemens Buchacher <drizzd@aon.at>
 #

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='git-diff check diffstat filepaths length when containing UTF-8 chars'
 

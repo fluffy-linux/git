@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 HTTP_PROTO=HTTP/2
 LIB_HTTPD_SSL=1

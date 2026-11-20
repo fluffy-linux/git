@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='
 The general idea is that we have a single file whose lines come from

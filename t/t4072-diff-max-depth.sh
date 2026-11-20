@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='check that diff --max-depth will limit recursion'
 . ./test-lib.sh

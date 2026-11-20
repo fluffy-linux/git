@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='pack-objects breaks long cross-pack delta chains'
 

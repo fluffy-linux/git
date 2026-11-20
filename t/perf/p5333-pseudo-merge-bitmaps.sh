@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='pseudo-merge bitmaps'
 . ./perf-lib.sh

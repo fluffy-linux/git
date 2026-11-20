@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='assert (unbuilt) Documentation/*.adoc and -h output
 

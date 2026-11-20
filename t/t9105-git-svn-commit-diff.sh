@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2006 Eric Wong
 test_description='git svn commit-diff'

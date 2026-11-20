@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='last-modified perf tests'
 . ./perf-lib.sh

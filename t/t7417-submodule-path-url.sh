@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='check handling of .gitmodule path with dash'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='rebasing a commit with multi-line first paragraph.'
 

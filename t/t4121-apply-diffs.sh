@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='git apply for contextually independent diffs'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

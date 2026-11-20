@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='tests for git clone --revision'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

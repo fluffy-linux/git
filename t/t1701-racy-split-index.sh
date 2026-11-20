@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # This test can give false success if your machine is sufficiently
 # slow or all trials happened to happen on second boundaries.

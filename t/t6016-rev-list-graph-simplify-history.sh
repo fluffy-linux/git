@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # There's more than one "correct" way to represent the history graphically.
 # These tests depend on the current behavior of the graphing code.  If the

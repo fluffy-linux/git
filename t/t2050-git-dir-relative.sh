@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='check problems with relative GIT_DIR
 
@@ -19,7 +19,7 @@ export COMMIT_FILE
 
 test_expect_success 'Setting up post-commit hook' '
 mkdir -p .git/hooks &&
-echo >.git/hooks/post-commit "#!/bin/sh
+echo >.git/hooks/post-commit "#!/sw/bash/bin/bash
 touch \"\${COMMIT_FILE}\"
 echo Post commit hook was called." &&
 chmod +x .git/hooks/post-commit'

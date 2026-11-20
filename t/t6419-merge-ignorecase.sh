@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='git-merge with case-changing rename on case-insensitive file system'
 

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='git grep --open-files-in-pager
 '
@@ -42,7 +42,7 @@ static void add_grep(struct rev_info *revs, const char *ptn, enum grep_pat_token
 
 test_expect_success SIMPLEPAGER 'git grep -O' '
 	cat >$less <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	printf "%s\n" "$@" >pager-args
 	EOF
 	chmod +x $less &&
@@ -83,7 +83,7 @@ test_expect_success 'git grep -O --no-index' '
 
 test_expect_success 'setup: fake "less"' '
 	cat >less <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	printf "%s\n" "$@" >actual
 	EOF
 	chmod +x less

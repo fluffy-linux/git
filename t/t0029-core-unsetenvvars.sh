@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test the Windows-only core.unsetenvvars setting'
 

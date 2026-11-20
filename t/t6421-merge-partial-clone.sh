@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description="limiting blob downloads when merging with partial clones"
 # Uses a methodology similar to

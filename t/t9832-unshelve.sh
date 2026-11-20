@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 last_shelved_change () {
 	p4 changes -s shelved -m1 | cut -d " " -f 2

@@ -14,7 +14,7 @@ diff a/git-fetch-script b/git-fetch-script
 --- /dev/null
 +++ b/git-fetch-script
 @@ -0,0 +1,41 @@
-+#!/bin/sh
++#!/sw/bash/bin/bash
 +#
 +merge_repo=$1
 +merge_name=${2:-HEAD}

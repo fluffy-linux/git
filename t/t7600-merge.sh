@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2007 Lars Hjemli
 #
@@ -973,7 +973,7 @@ test_expect_success 'amending no-ff merge commit' '
 test_debug 'git log --graph --decorate --oneline --all'
 
 cat >editor <<\EOF
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Add a new message string that was not in the template
 (
 	echo "Merge work done on the side branch c1"

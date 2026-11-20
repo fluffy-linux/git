@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Tests pack-objects performance with filters and --path-walk'
 . ./perf-lib.sh

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # NOTICE:
 #   This testsuite does a number of diffs and checks that the output match.

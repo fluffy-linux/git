@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2009 Jens Lehmann, based on t7401 by Ping Yin
 # Copyright (c) 2011 Alexey Shumkin (+ non-UTF-8 commit encoding tests)

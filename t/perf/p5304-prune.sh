@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='performance tests of prune'
 . ./perf-lib.sh

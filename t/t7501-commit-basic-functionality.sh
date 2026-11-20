@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2007 Kristian Høgsberg <krh@redhat.com>
 #
@@ -210,7 +210,7 @@ test_expect_success 'setup: commit message from file' '
 
 test_expect_success 'amend commit' '
 	cat >editor <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	sed -e "s/a file/an amend commit/g" <"$1" >"$1-"
 	mv "$1-" "$1"
 	EOF
@@ -239,7 +239,7 @@ test_expect_success 'allow-empty --only ignores staged contents' '
 
 test_expect_success 'set up editor' '
 	cat >editor <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	sed -e "s/unamended/amended/g" <"$1" >"$1-"
 	mv "$1-" "$1"
 	EOF
@@ -269,7 +269,7 @@ test_expect_success '--amend --edit' '
 
 test_expect_success '--amend --edit of empty message' '
 	cat >replace <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	echo "amended" >"$1"
 	EOF
 	chmod 755 replace &&
@@ -323,7 +323,7 @@ test_expect_success 'using message from other commit' '
 
 test_expect_success 'editing message from other commit' '
 	cat >editor <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	sed -e "s/amend/older/g"  <"$1" >"$1-"
 	mv "$1-" "$1"
 	EOF
@@ -365,7 +365,7 @@ test_expect_success "commit --interactive doesn't change index if editor aborts"
 
 test_expect_success 'editor not invoked if -F is given' '
 	cat >editor <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	sed -e s/good/bad/g <"$1" >"$1-"
 	mv "$1-" "$1"
 	EOF

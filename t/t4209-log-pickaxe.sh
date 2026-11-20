@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='log --grep/--author/--regexp-ignore-case/-S/-G'
 

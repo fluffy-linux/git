@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description="Test bundle-uri bundle_uri_parse_line()"
 

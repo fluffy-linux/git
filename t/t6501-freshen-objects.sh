@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # This test covers the handling of objects which might have old
 # mtimes in the filesystem (because they were used previously)

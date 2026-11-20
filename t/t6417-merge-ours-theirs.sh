@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Merge-recursive ours and theirs variants'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

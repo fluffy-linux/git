@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test automatic use of a pager.'
 
@@ -383,7 +383,7 @@ test_default_pager() {
 		test_unconfig core.pager &&
 		rm -f default_pager_used &&
 		cat >\$less <<-\EOF &&
-		#!/bin/sh
+		#!/sw/bash/bin/bash
 		wc >default_pager_used
 		EOF
 		chmod +x \$less &&
@@ -600,7 +600,7 @@ test_expect_success TTY 'command-specific pager overridden by environment' '
 
 test_expect_success 'setup external command' '
 	cat >git-external <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	git "$@"
 	EOF
 	chmod +x git-external

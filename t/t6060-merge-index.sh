@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='basic git merge-index / git-merge-one-file tests'
 

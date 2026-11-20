@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test textconv caching'
 
 . ./test-lib.sh
 
 cat >helper <<'EOF'
-#!/bin/sh
+#!/sw/bash/bin/bash
 sed 's/^/converted: /' "$@" >helper.out
 cat helper.out
 EOF

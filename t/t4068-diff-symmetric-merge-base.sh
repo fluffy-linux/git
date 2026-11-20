@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='behavior of diff with symmetric-diff setups and --merge-base'
 

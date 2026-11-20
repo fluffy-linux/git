@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2006 Yann Dirson, based on t3400 by Amos Waterland
 #

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='miscellaneous basic tests for cherry-pick and revert'
 

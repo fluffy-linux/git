@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='pushing to a repository using push options'
 
@@ -19,7 +19,7 @@ mk_repo_pair () {
 		git config receive.denyCurrentBranch warn &&
 		mkdir -p .git/hooks &&
 		cat >.git/hooks/pre-receive <<-'EOF' &&
-		#!/bin/sh
+		#!/sw/bash/bin/bash
 		if test -n "$GIT_PUSH_OPTION_COUNT"; then
 			i=0
 			>hooks/pre-receive.push_options
@@ -33,7 +33,7 @@ mk_repo_pair () {
 		chmod u+x .git/hooks/pre-receive
 
 		cat >.git/hooks/post-receive <<-'EOF' &&
-		#!/bin/sh
+		#!/sw/bash/bin/bash
 		if test -n "$GIT_PUSH_OPTION_COUNT"; then
 			i=0
 			>hooks/post-receive.push_options

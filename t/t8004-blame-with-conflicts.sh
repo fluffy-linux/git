@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # Based on a test case submitted by Björn Steinbrink.
 

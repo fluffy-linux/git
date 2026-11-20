@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2008 Marcus Griep
 
 test_description='git svn multi-glob branch names'

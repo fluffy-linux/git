@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description="recursive merge with directory renames"
 # includes checking of many corner cases, with a similar methodology to:

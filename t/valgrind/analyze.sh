@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # Get TEST_OUTPUT_DIRECTORY from GIT-BUILD-OPTIONS if it's there...
 . "$(dirname "$0")/../../GIT-BUILD-OPTIONS"

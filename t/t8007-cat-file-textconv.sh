@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='git cat-file textconv support'
 
 . ./test-lib.sh
 
 cat >helper <<'EOF'
-#!/bin/sh
+#!/sw/bash/bin/bash
 grep -q '^bin: ' "$1" || { echo "E: $1 is not \"binary\" file" 1>&2; exit 1; }
 sed 's/^bin: /converted: /' "$1"
 EOF

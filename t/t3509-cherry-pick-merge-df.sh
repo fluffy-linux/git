@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test cherry-pick with directory/file conflicts'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

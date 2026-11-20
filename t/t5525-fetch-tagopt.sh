@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='tagopt variable affects "git fetch" and is overridden by commandline.'
 

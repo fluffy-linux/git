@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2011, Google Inc.
 
 test_description='adding and checking out large blobs'

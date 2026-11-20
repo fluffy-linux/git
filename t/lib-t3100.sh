@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 setup_basic_ls_tree_data () {
 	mkdir dir &&

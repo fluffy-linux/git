@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 test_description='git svn handling of root commits in merge ranges'
 . ./lib-git-svn.sh
 

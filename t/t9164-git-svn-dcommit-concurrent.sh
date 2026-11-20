@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2012 Robert Luberda
 #
@@ -56,7 +56,7 @@ setup_hook()
 
 	hook="$rawsvnrepo/hooks/$hook_type"
 	cat > "$hook" <<- 'EOF1'
-		#!/bin/sh
+		#!/sw/bash/bin/bash
 		set -e
 		cd "$1/.."  # "$1" is repository location
 		exec >> svn-hook.log 2>&1

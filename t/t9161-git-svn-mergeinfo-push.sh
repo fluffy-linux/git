@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Portions copyright (c) 2007, 2009 Sam Vilain
 # Portions copyright (c) 2011 Bryan Jacobs

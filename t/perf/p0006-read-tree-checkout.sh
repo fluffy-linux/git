@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # This test measures the performance of various read-tree
 # and checkout operations.  It is primarily interested in

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='
 Test pruning of repositories with minor corruptions. The goal

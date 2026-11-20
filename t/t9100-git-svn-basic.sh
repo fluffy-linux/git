@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2006 Eric Wong
 #
@@ -31,7 +31,7 @@ test_expect_success \
 		echo "deep dir" >dir/a/b/c/d/e/file &&
 		mkdir bar &&
 		echo "zzz" >bar/zzz &&
-		echo "#!/bin/sh" >exec.sh &&
+		echo "#!/sw/bash/bin/bash" >exec.sh &&
 		chmod +x exec.sh &&
 		svn_cmd import -m "import for git svn" . "$svnrepo" >/dev/null
 	) &&

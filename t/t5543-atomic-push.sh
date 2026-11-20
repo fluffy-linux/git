@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='pushing to a repository using the atomic push option'
 
@@ -212,7 +212,7 @@ test_expect_success 'atomic push reports (reject by update hook)' '
 	(
 		mkdir -p upstream/.git/hooks &&
 		cat >upstream/.git/hooks/update <<-EOF &&
-		#!/bin/sh
+		#!/sw/bash/bin/bash
 
 		if test "\$1" = "refs/heads/bar"
 		then

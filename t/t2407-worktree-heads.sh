@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test operations trying to overwrite refs at worktree HEAD'
 

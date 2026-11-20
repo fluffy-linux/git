@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Testing the various Bloom filter computations in bloom.c'
 

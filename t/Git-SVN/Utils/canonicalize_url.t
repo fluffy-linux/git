@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/sw/perl/bin/perl
 
 # Test our own home rolled URL canonicalizer.  Test the private one
 # directly because we can't predict what the SVN API is doing to do.

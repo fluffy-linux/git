@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test cloning a repository larger than 2 gigabyte'
 . ./test-lib.sh

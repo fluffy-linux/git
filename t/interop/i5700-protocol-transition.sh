@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 VERSION_A=.
 VERSION_B=v2.0.0

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test HTTP 429 Too Many Requests retry logic'
 

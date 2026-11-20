@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Generate test data repository using the given parameters.
 # When omitted, we create "gen-many-files-d-w-f.git".
 #

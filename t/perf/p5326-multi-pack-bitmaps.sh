@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Tests performance using midx bitmaps'
 . ./perf-lib.sh

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2013, 2014 Christian Couder
 #
@@ -105,7 +105,7 @@ test_expect_success 'with cmd and $1 with shell script' '
 	Bug-maker: who is me
 	EOF
 	cat >echoscript <<-EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	echo who is "\$1"
 	EOF
 	chmod +x echoscript &&

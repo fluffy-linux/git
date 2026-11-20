@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Tests pack performance using bitmaps'
 . ./perf-lib.sh

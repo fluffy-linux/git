@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='speed of clone --reference'
 . ./perf-lib.sh

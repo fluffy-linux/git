@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test that adding/removing many notes triggers automatic fanout restructuring'
 

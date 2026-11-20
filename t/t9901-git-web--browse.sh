@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 
 test_description='git web--browse basic tests
@@ -39,7 +39,7 @@ test_expect_success \
 	'browser paths are properly quoted' '
 	echo fake: http://example.com/foo >expect &&
 	cat >"fake browser" <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	echo fake: "$@"
 	EOF
 	chmod +x "fake browser" &&

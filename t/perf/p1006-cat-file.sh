@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Tests listing object info performance'
 . ./perf-lib.sh

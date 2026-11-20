@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 #        ,---E--.   *H----------.             * marks !TREESAME parent paths
 #       /        \ /             \*

@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/sw/perl/bin/perl
 #
 # Copyright (c) 2021-2022 Eric Sunshine <sunshine@sunshineco.com>
 #

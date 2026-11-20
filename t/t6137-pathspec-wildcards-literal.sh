@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 test_description='test wildcards and literals with git add/commit (subshell style)'
 
 . ./test-lib.sh

@@ -126,7 +126,7 @@ Writing Tests
 The perf script starts much like a normal test script, except it
 sources perf-lib.sh:
 
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 	#
 	# Copyright (c) 2005 Junio C Hamano
 	#

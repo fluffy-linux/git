@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test disabling of git-over-tcp in clone/fetch'
 

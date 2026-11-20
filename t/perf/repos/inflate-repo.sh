@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Inflate the size of an EXISTING repo.
 #
 # This script should be run inside the worktree of a TEST repo.
