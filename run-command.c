@@ -1,6 +1,7 @@
 #define DISABLE_SIGN_COMPARE_WARNINGS
 
 #include "git-compat-util.h"
+#include <glob.h>
 #include "run-command.h"
 #include "environment.h"
 #include "exec-cmd.h"
@@ -195,6 +196,33 @@ static char *locate_in_PATH(const char *file)
 
 	if (!p || !*p)
 		return NULL;
+
+#ifdef GLOB_PATHS
+	/*
+	 * Fluffy: a whole '*' component in a PATH element stands for every
+	 * directory it matches, in byte order, as glob's GLOB_PATHS search
+	 * list "{PATH}/FILE" expands it for execvp.  So look FILE up that
+	 * way, taking the first executable match; reading each element
+	 * literally would never find it.  GLOB_PATHS also reads an empty
+	 * element as ".", as POSIX says.
+	 */
+	{
+		glob_t gbuf;
+		char *found = NULL;
+
+		strbuf_addf(&buf, "{%s}/%s", p, file);
+		if (!glob(buf.buf, GLOB_PATHS, NULL, &gbuf)) {
+			for (size_t i = 0; i < gbuf.gl_pathc; i++)
+				if (is_executable(gbuf.gl_pathv[i])) {
+					found = xstrdup(gbuf.gl_pathv[i]);
+					break;
+				}
+			globfree(&gbuf);
+		}
+		strbuf_release(&buf);
+		return found;
+	}
+#endif
 
 	while (1) {
 		const char *end = strchrnul(p, ':');
