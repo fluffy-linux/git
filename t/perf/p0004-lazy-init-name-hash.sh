@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Tests multi-threaded lazy_init_name_hash'
 . ./perf-lib.sh

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # An test hook script to integrate with git to test fsmonitor.
 #

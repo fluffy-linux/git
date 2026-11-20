@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/sw/python/bin/python3
 #
 # Copyright (c) Vicent Marti. All rights reserved.
 #

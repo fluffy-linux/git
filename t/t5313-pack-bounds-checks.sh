@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='bounds-checking of access to mmapped on-disk file formats'
 

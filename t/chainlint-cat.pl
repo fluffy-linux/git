@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/sw/perl/bin/perl
 
 my $outdir = shift;
 open(my $tests, '>', "$outdir/tests")

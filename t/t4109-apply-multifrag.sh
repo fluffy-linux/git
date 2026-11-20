@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2005 Junio C Hamano
 # Copyright (c) 2005 Robert Fitzsimons

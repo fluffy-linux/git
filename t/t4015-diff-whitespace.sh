@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2006 Johannes E. Schindelin
 # Copyright (c) 2023 Google LLC

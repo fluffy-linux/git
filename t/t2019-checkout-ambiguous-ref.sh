@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='checkout handling of ambiguous (branch/tag) refs'
 

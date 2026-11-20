@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='shifted diff groups re-diffing during histogram diff'
 

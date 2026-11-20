@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='branch --contains <commit>, --no-contains <commit> --merged, and --no-merged'
 

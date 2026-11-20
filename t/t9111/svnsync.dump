@@ -146,7 +146,7 @@ svn:executable
 V 0
 
 PROPS-END
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 
 Node-path: foo
@@ -251,7 +251,7 @@ Text-content-md5: 3e2b31c72181b87149ff995e7202c0e3
 Content-length: 20
 
 PROPS-END
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 
 Revision-number: 4
@@ -286,7 +286,7 @@ svn:executable
 V 1
 *
 PROPS-END
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 
 Revision-number: 5

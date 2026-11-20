@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='format-patch mime headers and extra headers do not conflict'
 

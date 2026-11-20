@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test responses to violations of the network protocol. In most
 of these cases it will generally be acceptable for one side to break off

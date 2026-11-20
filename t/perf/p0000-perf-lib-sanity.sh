@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Tests whether perf-lib facilities work'
 . ./perf-lib.sh

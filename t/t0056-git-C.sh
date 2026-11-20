@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='"-C <path>" option and its effects on other path-related options'
 

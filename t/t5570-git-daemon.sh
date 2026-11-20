@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test fetching over git protocol'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

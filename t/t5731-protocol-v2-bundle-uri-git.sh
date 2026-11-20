@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description="Test bundle-uri with protocol v2 and 'git://' transport"
 

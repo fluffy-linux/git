@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # Script to return HTTP 429 Too Many Requests responses for testing retry logic.
 # Usage: /http_429/<test-context>/<retry-after-value>/<repo-path>

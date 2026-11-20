@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2008 Johannes Schindelin
 #
@@ -48,7 +48,7 @@ test_expect_success 'rebase with a dirty submodule' '
 '
 
 cat > fake-editor.sh << \EOF
-#!/bin/sh
+#!/sw/bash/bin/bash
 echo $EDITOR_TEXT
 EOF
 chmod a+x fake-editor.sh

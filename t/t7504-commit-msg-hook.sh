@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='commit-msg hook'
 
@@ -17,7 +17,7 @@ test_expect_success 'with no hook' '
 
 # set up fake editor for interactive editing
 cat > fake-editor <<'EOF'
-#!/bin/sh
+#!/sw/bash/bin/bash
 cp FAKE_MSG "$1"
 exit 0
 EOF
@@ -291,7 +291,7 @@ test_expect_failure 'merge --continue remembers --no-verify' '
 
 # set up fake editor to replace `pick` by `reword`
 cat > reword-editor <<'EOF'
-#!/bin/sh
+#!/sw/bash/bin/bash
 mv "$1" "$1".bup &&
 sed 's/^pick/reword/' <"$1".bup >"$1"
 EOF

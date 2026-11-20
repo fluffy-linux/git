@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='performance with large numbers of packs'
 . ./perf-lib.sh

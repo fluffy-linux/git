@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2007 Junio C Hamano
 #
@@ -38,7 +38,7 @@ test_expect_success setup '
 	git tag anchor &&
 
 	cat >./custom-merge <<-\EOF &&
-	#!/bin/sh
+	#!/sw/bash/bin/bash
 
 	orig="$1" ours="$2" theirs="$3" exit="$4" path=$5
 	orig_name="$6" our_name="$7" their_name="$8"

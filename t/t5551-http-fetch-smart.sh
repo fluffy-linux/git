@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 : ${HTTP_PROTO:=HTTP/1.1}
 test_description="test smart fetching over http via http-backend ($HTTP_PROTO)"

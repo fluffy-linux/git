@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='git blame corner cases'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test fast-import and fast-export performance'
 . ./perf-lib.sh

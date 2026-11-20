@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Commit walk performance tests'
 . ./perf-lib.sh

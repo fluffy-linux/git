@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2010, Jens Lehmann
 
 test_description='Recursive "git fetch" for submodules'

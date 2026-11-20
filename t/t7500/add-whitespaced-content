@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 sed -e 's/|$//' >>"$1" <<\EOF
 
  |

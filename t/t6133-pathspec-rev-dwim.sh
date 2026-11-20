@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test dwim of revs versus pathspecs in revision parser'
 

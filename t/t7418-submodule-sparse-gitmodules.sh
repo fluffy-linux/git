@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (C) 2018  Antonio Ospite <ao2@ao2.it>
 #

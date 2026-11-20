@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2007 Johannes E. Schindelin
 #
@@ -172,7 +172,7 @@ test_expect_success 'status -v -v' '
 
 test_expect_success 'setup fake editor' '
 	cat >.git/editor <<-\EOF &&
-	#! /bin/sh
+	#!/sw/bash/bin/bash
 	cp "$1" output
 EOF
 	chmod 755 .git/editor

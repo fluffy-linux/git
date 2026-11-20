@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2020, Jacob Keller.
 
 test_description='"git fetch" with negative refspecs.

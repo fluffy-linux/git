@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='GIT_EDITOR, core.editor, and stuff'
 

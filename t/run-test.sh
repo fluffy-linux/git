@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # A simple wrapper to run shell tests via TEST_SHELL_PATH,
 # or exec unit tests directly.

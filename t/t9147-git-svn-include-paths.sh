@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2013 Paul Walmsley - based on t9134 by Vitaly Shukela
 #

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2012 Valentin Duperray, Lucien Kong, Franck Jonas,
 #		     Thomas Nguy, Khoi Nguyen

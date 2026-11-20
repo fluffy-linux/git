@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 printf "Status: 500 Intentional Breakage\n"
 

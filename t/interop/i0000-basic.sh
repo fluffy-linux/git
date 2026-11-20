@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # Note that this test only works on real version numbers,
 # as it depends on matching the output to "git version".

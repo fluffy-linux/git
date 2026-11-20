@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 VALID_CREDS_FILE=custom-auth.valid
 CHALLENGE_FILE=custom-auth.challenge

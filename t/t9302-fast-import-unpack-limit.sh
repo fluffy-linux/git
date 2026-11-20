@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 test_description='test git fast-import unpack limit'
 
 . ./test-lib.sh

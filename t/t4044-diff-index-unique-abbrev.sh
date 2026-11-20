@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test unique sha1 abbreviation on "index from..to" line'
 

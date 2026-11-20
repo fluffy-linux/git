@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # Read a line coming from `./aggregate.perl --sort-by regression ...`
 # and automatically bisect to find the commit responsible for the

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # If "one-time-script" exists in $HTTPD_ROOT_PATH, run the script on the HTTP
 # response. If the response was modified as a result, delete "one-time-script"

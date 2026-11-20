@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2016 Dan Aloni
 # Copyright (c) 2016 Jeff King

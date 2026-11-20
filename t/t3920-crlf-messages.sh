@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='Test ref-filter and pretty APIs for commit and tag messages using CRLF'
 

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 # A description of the repository used for this test can be found in
 # t9602/README.

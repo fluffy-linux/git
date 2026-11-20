@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2007 Eric Wong
 test_description='git svn globbing refspecs'
 . ./lib-git-svn.sh

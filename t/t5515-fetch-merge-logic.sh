@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2007 Santi Béjar, based on t4013 by Junio C Hamano
 #

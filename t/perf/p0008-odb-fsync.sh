@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # This test measures the performance of adding new files to the object
 # database. The test was originally added to measure the effect of the

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 #
 # Copyright (c) 2016 Jacob Keller, based on t4041 by Jens Lehmann
 #

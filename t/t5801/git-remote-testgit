@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2012 Felipe Contreras
 
 # The first argument can be a url when the fetch/push command was a url

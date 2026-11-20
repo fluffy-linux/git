@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 # Copyright (c) 2006, Junio C Hamano.
 
 test_description='Per branch config variables affects "git fetch".

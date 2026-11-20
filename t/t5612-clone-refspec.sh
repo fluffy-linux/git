@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/sw/bash/bin/bash
 
 test_description='test refspec written by clone-command'
 GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME=main
